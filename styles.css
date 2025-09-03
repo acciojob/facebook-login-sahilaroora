@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+/* Body Styling */
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    gap: 50px;
+}
+
+/* Left Section */
+.left {
+    width: 450px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.left p {
+    font-size: 24px;
+    color: #1c1e21;
+    margin-top: 20px;
+}
+
+/* Right Section */
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shad
